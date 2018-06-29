@@ -232,7 +232,7 @@ ul.thaitown .right_box {
 }
 @media only screen and (max-width: 767px) {
 	.mfp-inline-holder .mfp-content { height: 100%; overflow: hidden; }
-	#game-popup,#game-popup2,#game-popup3,#game-popup4  		{ height: 75%; }
+	#game-popup,#game-popup2,#game-popup3,#game-popup4  		{ height: 95%; }
 	.popup_wrap 				{ height: 100%; overflow-x: auto; }
 	.game_wrap 					{ padding-bottom: 18%; }
 	
