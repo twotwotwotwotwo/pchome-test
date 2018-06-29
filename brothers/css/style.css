@@ -1119,9 +1119,9 @@ color:#d20006;
 	ul.pd_wrap li 	{ width: calc(100% / 2); }
 	.section_03 	{ margin-top: 0; }
     .owl-carousel{ display: block!important; }
-    #section_02-1 ul{padding:0px; }
+    #section_02-1 ul{padding:0px!important;}
     
-     .br-m{display: block;}
+     .br-m{display: block!important;}
    
     #section_02-1 ul li { font-size: 1.3em;line-height: 1.6em;} 
     #aa{ margin: 25px;}
