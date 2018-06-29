@@ -235,7 +235,7 @@ ul.thaitown .right_box {
 @media only screen and (max-width: 767px) {
 	.mfp-inline-holder .mfp-content { height: 100%; overflow: hidden; }
 	#game-popup,#game-popup2,#game-popup3,#game-popup4  		{ height: 80%; }
-	.popup_wrap 				{ height: 100%; overflow-x: auto; }
+	.popup_wrap 				{ height: 100%; overflow-x: auto; overflow-y: scroll!important;}
 	.game_wrap 					{ padding-bottom: 18%; }
 	
 }
