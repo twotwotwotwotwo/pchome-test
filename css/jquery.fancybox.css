@@ -65,12 +65,14 @@
 */
 }
 
+/*
 .fancybox-inner {
 	overflow: hidden;
         background: #fff;
     border: 15px solid #fff;
     border-radius: 25px;
 }
+*/
 
 .fancybox-type-iframe .fancybox-inner {
 	-webkit-overflow-scrolling: touch;
