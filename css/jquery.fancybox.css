@@ -54,10 +54,9 @@
 
 .fancybox-outer, .fancybox-inner {
 	position: relative;
-	height:100vh!important;
+	height:50vh!important;
 	overflow: visible!important;
 /*	background: rgba(0, 0, 0, 0.63);*/
-    overflow: visible!important;
 /*
     background: #fff;
     border: 15px solid #fff;
@@ -65,15 +64,19 @@
 */
 }
 
+/*
 .fancybox-inner {
 	overflow: hidden;
         background: #fff;
     border: 15px solid #fff;
     border-radius: 25px;
 }
+*/
 
 .fancybox-type-iframe .fancybox-inner {
 	-webkit-overflow-scrolling: touch;
+        border: 15px solid #fff;
+    border-radius: 25px;
 }
 
 .fancybox-error {
