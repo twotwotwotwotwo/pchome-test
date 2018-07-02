@@ -426,8 +426,9 @@ width: 100%;
 .bgcolor-s1{
     width: 100%;
 /*    background-color: #ffc4bc;*/
-    background:url(../img/bg-1hand.png) no-repeat  center top ,
-                url(../img/bg-1.png) no-repeat  center top #2f0211 ;
+    background:url(../img/bg-1.png) no-repeat  center top #2f0211 ;
+/*        background:url(../img/bg-1hand.png) no-repeat  center top ,
+                url(../img/bg-1.png) no-repeat  center top #2f0211 ;*/
 /*    background-size:contain;*/
 /*    background-color: #f8f8f8;*/
 /*    padding: 20px 0px;*/
@@ -441,7 +442,7 @@ width: 100%;
     width: 100%;
 /*    background-color: #fffbc2;*/
 /*    margin-top: 3%;*/
-    background:url(../img/bg-2.jpg) repeat  center top #fffbc2;
+    background:url(../img/bg-22.jpg) repeat  center top #cbfa97;
 /*    background-size:cover;*/
 /*      background:url(../img/bg-2repeat.jpg) repeat  center top #000000;*/
     padding-bottom: 50px;
@@ -452,7 +453,7 @@ width: 100%;
 
 .bgcolor-s3{
     width: 100%;
-    background:url(../img/bg-3.jpg) repeat  center top #fffbc2;
+    background:url(../img/bg-33.jpg) repeat  center top #c3eefb;
             
 /*    background-color: #ffc4bc;*/
 /*
@@ -466,13 +467,13 @@ width: 100%;
 
 .bgcolor-s4{
     width: 100%;
-    background:url(../img/bg-4.jpg) repeat  center top #fffbc2;
+    background:url(../img/bg-44.jpg) repeat  center top #ffcf94;
     background-size:cover;
     padding: 50px;
 }
 .bgcolor-s5{
     width: 100%;
-background:url(../img/bg-5.jpg) repeat  center top #fffbc2;
+background:url(../img/bg-55.jpg) repeat  center top #09424f;
 /*    background-size:cover;*/
     padding-bottom: 30px;
 }
@@ -496,7 +497,7 @@ background:url(../img/bg-5.jpg) repeat  center top #fffbc2;
 
 .bgcolor-s8{
     width: 100%;
-    background:url(../img/bg-3.jpg) repeat  center top #fffbc2;
+    background:url(../img/bg-33.jpg) repeat  center top #c3eefb;
     background-size:cover;
     padding-bottom: 40px;
     
@@ -640,7 +641,7 @@ height: 100%;
     max-width: 932px;
     margin: 0 auto;
     position: relative;
-    padding-top: 104px;
+    padding-top: 10px;
     padding-left: 75px;
 }
 
@@ -659,7 +660,7 @@ height: 100%;
     /* text-align: left; */
 /*    padding-top: 30%;*/
     margin: 0 auto;
-    padding-top:5%;
+    padding-top:2%;
 }
  .main_title0 {
     width: 80%!important;
@@ -1227,7 +1228,7 @@ color:#868686;
         background-size: cover; }   
     
     .bgcolor-s4{padding: 10px 10px 30px 10px}   
-    .bg-down{ padding-bottom: 70px;} 
+    .bg-down{ padding-bottom: 120px;} 
     
     
     .container{padding-top:20px;}
