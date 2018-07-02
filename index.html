@@ -1140,57 +1140,10 @@ var iframeid=document.getElementById("mainframe"); //iframe id
           		     <div class="bankbar">
 						<div class="wrap ">
 							<ul class="clearfix" style=" padding-top: 20px;">
-<!--								<li><a id="fancybox-manual-b" href="javascript:;"><img src="img/win-list-1.jpg"></a></li>-->
-                                <li><a href="index_01.html" target="_blank" class="fancybox-iframe" id="fancybox-manual-b"><img src="img/win-list-1.jpg"></a></li>                            
-
-                               							
-                            <!------////////////////////////燈箱第二組 start////////////////////////------>
-                               
-                              <li> 
-                                <!-- 燈箱 圖片1 -->
-                               <div class="jump-1 open-popup-link" data-effect="mfp-zoom-in" href="#game-popup3">
-                                <img src="img/win-list-2.jpg"></div>
-                                <!-- 燈箱 活動辦法 -->
-                                <div id="game-popup3" class="zoom-anim-dialog mfp-hide">
-                                   
-                                    <div class="popup_wrap">
-                                      <div></div>
-                                       <iframe src="index_02.html" width="100%" scrolling="no" frameborder="0" class="iframRWD"></iframe>
-                                       
-<!--                                       <iframe src="//www.pchomeec.tw/activity/AC06913696?n=index_02.html" width="100%" scrolling="no" frameborder="0" class="iframRWD" style="margin: 0;"></iframe>-->
-
-                                    </div>    
-                                        
-                                      
-                               
-                                 </div>
-                                 
-                               </li> 
-                                 
-                            <!------////////////////////////燈箱第二組 end////////////////////////------>   														
-                               																												
-                             <!------////////////////////////燈箱第三組 start////////////////////////------>
-                              <li> 
-                                <!-- 燈箱 圖片1 -->
-                               <div class="jump-1 open-popup-link" data-effect="mfp-zoom-in" href="#game-popup4">
-                                <img src="img/win-list-3.jpg"></div>
-                                <!-- 燈箱 活動辦法 -->
-                                <div id="game-popup4" class="zoom-anim-dialog mfp-hide">
-                                   
-                                    <div class="popup_wrap">
-                                      <div></div>
-                                       <iframe src="index_03.html" width="100%" scrolling="no" frameborder="0" class="iframRWD" style="margin-left:5px;"></iframe>
-                                       
-<!--                                       <iframe src="//www.pchomeec.tw/activity/AC06913696?n=index_03.html" width="100%" scrolling="no" frameborder="0" class="iframRWD" style="margin: 0;"></iframe>-->
-                                       
-                                   
-                                     </div>    
-                                        
-                                 </div>
-                                 
-                                </li>  
-                            <!------////////////////////////燈箱第三組 end////////////////////////------>  
-                                
+                            <li><a href="index_01.html" target="_blank" class="fancybox-iframe" id="fancybox-manual-b"><img src="img/win-list-1.jpg"></a></li>   
+                            <li><a href="index_02.html" target="_blank" class="fancybox-iframe" id="fancybox-manual-c"><img src="img/win-list-2.jpg"></a></li>   
+                            <li><a href="index_03.html" target="_blank" class="fancybox-iframe" id="fancybox-manual-d"><img src="img/win-list-3.jpg"></a></li>   
+                            
                                  
                                   
 							</ul>
@@ -1604,7 +1557,7 @@ var iframeid=document.getElementById("mainframe"); //iframe id
 			 *  Simple image gallery. Uses default settings
 			 */
 
-			$('.fancybox').fancybox();
+	$('.fancybox').fancybox();
 
 
 			$("#fancybox-manual-b").click(function() {
@@ -1616,7 +1569,26 @@ var iframeid=document.getElementById("mainframe"); //iframe id
 				});
 			});
 
-
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open({
+                    openEffect  : 'fade', //elastic fade none
+					href : 'index_02.html',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+            
+ 			$("#fancybox-manual-d").click(function() {
+				$.fancybox.open({
+                    openEffect  : 'elastic', //elastic fade none
+					href : 'index_03.html',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+           
+            
+            
 
 		});
 	</script>
