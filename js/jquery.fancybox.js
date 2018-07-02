@@ -1212,7 +1212,7 @@
 			hSpace = hMargin + hPadding;
 
 			origWidth  = isPercentage(width)  ? (viewport.w - wSpace) * getScalar(width)  / 100 : width;
-			origHeight = isPercentage(height) ? (viewport.h - hSpace) * getScalar(height) / 100 : height;
+			origHeight = isPercentage(height) ? (viewport.h - hSpace) * getScalar(height) / 500 : height;
 
 			if (current.type === 'iframe') {
 				iframe = current.content;
