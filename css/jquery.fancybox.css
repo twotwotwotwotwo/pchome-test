@@ -54,7 +54,7 @@
 
 .fancybox-outer, .fancybox-inner {
 	position: relative;
-	height:1!important;
+	height:100vh!important;
 	overflow: visible!important;
 /*	background: rgba(0, 0, 0, 0.63);*/
     overflow: visible!important;
