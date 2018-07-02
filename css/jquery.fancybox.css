@@ -1,7 +1,7 @@
 /*桌機隱藏
 .popup,.fixedbutton,.gotop,.boxmanbutton{display: none;!important}*/
 
-
+.fancybox-inner{height: 500px!importany;}
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -20,6 +20,9 @@
 	outline: none;
 	vertical-align: top;
 }
+
+
+
 
 .fancybox-wrap {
 	position: absolute;
@@ -205,7 +208,7 @@
 .fancybox-outer, .fancybox-inner {
 	position: relative;
 /*	height:100vh!important;*/
-	height:500px!important;
+	height:100vh!important;
 	overflow: visible!important;
 	background-color: transparent!important;
 }	
