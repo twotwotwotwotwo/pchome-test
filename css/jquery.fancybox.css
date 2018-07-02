@@ -1,7 +1,7 @@
 /*桌機隱藏
 .popup,.fixedbutton,.gotop,.boxmanbutton{display: none;!important}*/
 
-.fancybox-inner{height: 500px!important;}
+
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -20,9 +20,6 @@
 	outline: none;
 	vertical-align: top;
 }
-
-
-
 
 .fancybox-wrap {
 	position: absolute;
@@ -44,6 +41,7 @@
 	 margin-top: 80px!important;
 }
 
+
 @media screen and (min-width: 933px) {
 .fancybox-opened {
 	
@@ -58,11 +56,20 @@
 	position: relative;
 	height:1!important;
 	overflow: visible!important;
-	background: rgba(0, 0, 0, 0.63);
+/*	background: rgba(0, 0, 0, 0.63);*/
+    overflow: visible!important;
+/*
+    background: #fff;
+    border: 15px solid #fff;
+    border-radius: 30px;
+*/
 }
 
 .fancybox-inner {
 	overflow: hidden;
+        background: #fff;
+    border: 15px solid #fff;
+    border-radius: 25px;
 }
 
 .fancybox-type-iframe .fancybox-inner {
@@ -207,7 +214,6 @@
 	
 .fancybox-outer, .fancybox-inner {
 	position: relative;
-/*	height:100vh!important;*/
 	height:100vh!important;
 	overflow: visible!important;
 	background-color: transparent!important;

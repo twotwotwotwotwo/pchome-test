@@ -151,16 +151,16 @@ $( function(){
 
 				stagePadding:0,
 				margin:0,
-				items:2,
+				items:1.2,
                 
 			},
 			600:{
                 stagePadding:0,
                 margin:0,
-				items:2
+				items:1.2
 			},
 			1000:{
-				items:2
+				items:1.2
 			}
 		}
 	
