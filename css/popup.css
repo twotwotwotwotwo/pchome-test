@@ -235,7 +235,7 @@ ul.thaitown .right_box {
 @media only screen and (max-width: 767px) {
 	.mfp-inline-holder .mfp-content { height: 100%; overflow: hidden; }
 	#game-popup,#game-popup2,#game-popup3,#game-popup4  		{ height: 80%; }
-	.popup_wrap 				{ height: 100%; overflow-x: auto; overflow-y: scroll!important;  }
+	.popup_wrap 				{ height: 100%; overflow-x: auto; }
 	.game_wrap 					{ padding-bottom: 18%; }
 	
 }
@@ -305,11 +305,7 @@ ul.thaitown .right_box {
   vertical-align: middle;
   margin: 0 auto;
   text-align: left;
-  z-index: 999999!important; }
-
-.mfp-content iframe{
-  overflow-y: scroll!important;
-}
+  z-index: 1045; }
 
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
