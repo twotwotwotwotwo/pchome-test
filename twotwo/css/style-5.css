@@ -21,7 +21,10 @@ body{
     overflow-x: hidden;
     background:url(../img/bg-2repeat.jpg) repeat  center top #000000;
 }
-
+body, html{
+    width: 100%!important;
+	overflow: hidden;
+}
 /*--- 共用 ---*/
 .mg_t10		{ margin-top: 20px; }
 .over-hide 	{ overflow: hidden; }
