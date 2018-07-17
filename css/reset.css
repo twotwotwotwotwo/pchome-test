@@ -29,10 +29,6 @@ body {
   line-height: 1;
 }
 
-#header{
-	background-color: #FFF;
-}
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
