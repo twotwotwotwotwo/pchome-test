@@ -5,9 +5,9 @@
  */
 
    .owl-next{float: right; margin-right:-60px!important; 
-       background:url(../img/move-to-next-r-2-w.png)no-repeat center top;background-size:20px 40px;opacity: 0.5;}
+       background:url(../img/move-to-next-r-2.png)no-repeat center top;background-size:20px 40px;opacity: 0.5;}
    .owl-prev{float: left;margin-left:-60px!important;
-       background:url(../img/move-to-next-l-2-w.png)no-repeat center top;background-size:20px 40px;opacity: 0.5;}
+       background:url(../img/move-to-next-l-2.png)no-repeat center top;background-size:20px 40px;opacity: 0.5;}
 
 .owl-theme .owl-dots,.owl-theme .owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}
 .owl-theme .owl-nav{position: absolute;width: 100%;top: 50%;}
