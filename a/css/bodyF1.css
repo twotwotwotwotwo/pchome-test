@@ -1,0 +1,71 @@
+ @charset "utf-8";
+
+ /*新版得獎名單表格 start*/
+    .pd_wrapF1,.pd_wrapF2{
+    width: 47%!important;
+    border: 1px solid #777;
+    float: left;
+    margin: 5px;}
+    
+    .hotF1{width: 15%; border: 1px solid #777;background-color: #ffffff!important;}
+    .pd_titleF1{width: 55%; border: 1px solid #777;background-color: #ffffff!important;}
+    .hot_priceF1{width: 30%; border: 1px solid #777;background-color: #ffffff!important;}
+    
+
+  /*--- box ---*/
+  .boxF1 { 
+    width: 100%; 
+  }
+  .boxF1 ul {
+    padding: 20px 2px 0 2px!important;
+  }
+ .boxF1 tr:first-child td{
+     background-color: #222222!important;
+     color: #ffffff;
+     font-size: 13px!important;
+     font-weight: normal;
+     line-height: 17px!important;
+    
+    }
+.win-h1{font-size: 26px;font-weight: bold;color:white;}	
+  /*新版得獎名單表格 End*/
+
+
+
+
+/*--- 產品內容 ---*/
+
+.hotF1, .pd_titleF1, ul.pd_wrapF1 p, .hot_priceF1{
+/*    width: 100%;*/
+    font-weight: 800;
+    height: 37px;
+    line-height: 26px;
+    overflow:auto ;
+    font-size: 18px;
+    padding: 3px;
+}
+
+
+
+/*--- 共用 ---*/
+.mg_t10		{ margin-top: 20px; }
+.over-hide 	{ overflow: hidden; }
+.nomargin  	{ margin: 0 !important; }
+ul.pd_wrapF1 img  	{ width: 100%; max-width: 100%; }
+
+
+@media only screen and (max-width: 931px) {
+	.boxF1 ul {padding: 5px!important;}
+	ul.pd_wrapF1 li 	{ width: calc(100% / 2 - 6px); }
+
+}
+@media only screen and (max-width: 450px) {
+.hotF1, .pd_titleF1, ul.pd_wrapF1 p, .hot_priceF1	{  font-weight: normal;font-size: 3.1vw; height: 26px; line-height: 26px; padding: 1px 3px; }
+	ul.pd_wrapF1 p 					{ letter-spacing: -1px; }
+	span.old_priceF1 					{ font-size: 2vw; }
+	span.hot_priceF1 					{ font-size: 6vw; }
+	span.buyF1						{ font-size: 2vw; }
+    .win-h1{font-size: 20px;font-weight: 400;color:white;}	
+}
+
+
