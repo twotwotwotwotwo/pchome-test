@@ -70,6 +70,40 @@
   </head>
 
 <body>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script>
+		$('#myCarousel-bottom').owlCarousel({
+				loop:true,
+				margin:0,
+				nav:false,
+				autoplay:true,
+				autoplayTimeout:4000,
+				autoplayHoverPause:true,
+				dots: false,
+				loop:true,
+				slideBy:2 ,
+
+			responsive:{
+				0:{
+
+					stagePadding:0,
+					margin:10,
+					items:1,
+
+				},
+				600:{
+					stagePadding:5,
+					margin:10,
+					items:2
+				},
+				1000:{
+					items:2
+				}
+			}
+
+		});      
+	</script>	
 
 <!----------------------------------------底部版為  start---------------------------------------------------->		
 <!----------------------------------------底部版為  start---------------------------------------------------->
@@ -109,6 +143,7 @@
 							</a>
 						</div>
 					</div>
+    </div>	
 					
 
 					
@@ -123,44 +158,11 @@
 
    
 <!--底部輪播js start-->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.js"></script>
 
 	<script type="text/javascript" src="js/iframeResizer.contentWindow.min.js"></script>
 
     
-	<script>
-		$('#myCarousel-bottom').owlCarousel({
-				loop:true,
-				margin:0,
-				nav:false,
-				autoplay:true,
-				autoplayTimeout:4000,
-				autoplayHoverPause:true,
-				dots: false,
-				loop:true,
-				slideBy:2 ,
-
-			responsive:{
-				0:{
-
-					stagePadding:0,
-					margin:10,
-					items:1,
-
-				},
-				600:{
-					stagePadding:5,
-					margin:10,
-					items:2
-				},
-				1000:{
-					items:2
-				}
-			}
-
-		});      
-	</script>
+	
 <!--底部輪播js end-->
 
 </body>
