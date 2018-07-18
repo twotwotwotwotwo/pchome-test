@@ -93,7 +93,7 @@
     <link rel="stylesheet" href="css/newmobile.css">
     <!--我要加more CSS END-->
 
-
+	<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
 
 
     <script src="js/tubular.js"></script>
@@ -261,7 +261,325 @@ var iframeid=document.getElementById("mainframe"); //iframe id
    }
 }
 </script>
+<!--////////////////////////得獎名單js start //////////////////////////////// -->
 
+ 
+<script>
+$( function(){
+	var myArray= new Array();
+	myArray = [
+        {         
+            "NUMBER": "序號",
+            "PD": "訂單編號",
+            "NAME": "訂購人姓氏"
+        },        
+        {
+            "NUMBER": "1",
+            "PD": "20180630030843",
+            "NAME": "蔡"
+        },
+        {
+            "NUMBER": "2",
+            "PD": "20180630023060",
+            "NAME": "李"
+        },
+        {
+            "NUMBER": "3",
+            "PD": "20180707019211",
+            "NAME": "羅"
+        },
+        {
+            "NUMBER": "4",
+            "PD": "20180630021105",
+            "NAME": "陳"
+        },
+        {
+            "NUMBER": "5",
+            "PD": "20180626028000",
+            "NAME": "林"
+        },
+        {
+            "NUMBER": "6",
+            "PD": "20180701008020",
+            "NAME": "段"
+        },
+        {
+            "NUMBER": "7",
+            "PD": "20180630026413",
+            "NAME": "蔡"
+        },
+        {
+            "NUMBER": "8",
+            "PD": "20180701004961",
+            "NAME": "彭"
+        },
+        {
+            "NUMBER": "9",
+            "PD": "20180624009743",
+            "NAME": "劉"
+        },
+        {
+            "NUMBER": "10",
+            "PD": "20180705026629",
+            "NAME": "王"
+        },
+        {
+            "NUMBER": "11",
+            "PD": "20180707011907",
+            "NAME": "羅"
+        },
+        {
+            "NUMBER": "12",
+            "PD": "20180626014056",
+            "NAME": "陳"
+        },
+        {
+            "NUMBER": "13",
+            "PD": "20180629007996",
+            "NAME": "王"
+        },
+        {
+            "NUMBER": "14",
+            "PD": "20180624015862",
+            "NAME": "白"
+        },
+        {
+            "NUMBER": "15",
+            "PD": "20180702010799",
+            "NAME": "陳"
+        },
+        {
+            "NUMBER": "16",
+            "PD": "20180624000235",
+            "NAME": "劉"
+        },
+        {
+            "NUMBER": "17",
+            "PD": "20180624000496",
+            "NAME": "董"
+        },
+        {
+            "NUMBER": "18",
+            "PD": "20180628030643",
+            "NAME": "劉"
+        },
+        {
+            "NUMBER": "19",
+            "PD": "20180624003697",
+            "NAME": "張"
+        },
+        {
+            "NUMBER": "20",
+            "PD": "20180627025022",
+            "NAME": "郗"
+        },
+        {
+            "NUMBER": "21",
+            "PD": "20180706011120",
+            "NAME": "陳"
+        },
+        {
+            "NUMBER": "22",
+            "PD": "20180624001490",
+            "NAME": "金"
+        },
+        {
+            "NUMBER": "23",
+            "PD": "20180625025258",
+            "NAME": "張"
+        },
+        {
+            "NUMBER": "24",
+            "PD": "20180703020983",
+            "NAME": "林"
+        },
+        {
+            "NUMBER": "25",
+            "PD": "20180624035631",
+            "NAME": "黃"
+        },
+
+              
+  ];
+
+
+
+  /* 版身顯示商品內容 */ 
+  var htmlPD = '';
+  for (var i = 0; i < myArray.length; i++) {
+    htmlPD += '<tr >';
+    htmlPD += '<td class="hotF1">' + myArray[i]['NUMBER'] + '</td>';
+    htmlPD += '<td class="pd_titleF1">' + myArray[i]['PD'] + '</td>';
+    htmlPD += '<td class="hot_priceF1">' + myArray[i]['NAME'] + '</td></tr>';
+
+  }
+
+    
+  $('.pd_wrapF1').html(htmlPD);
+    
+});
+</script>
+
+<script>    
+$( function(){
+	var myArray= new Array();
+	myArray = [
+        {         
+      "NUMBER": "序號",
+      "PD": "訂單編號",
+      "NAME": "訂購人姓氏"
+    },
+         {
+            "NUMBER": "26",
+            "PD": "20180627012319",
+            "NAME": "潘"
+        },
+        {
+            "NUMBER": "27",
+            "PD": "20180626011827",
+            "NAME": "王"
+        },
+        {
+            "NUMBER": "28",
+            "PD": "20180702008922",
+            "NAME": "黃"
+        },
+        {
+            "NUMBER": "29",
+            "PD": "20180627003499",
+            "NAME": "陳"
+        },
+        {
+            "NUMBER": "30",
+            "PD": "20180624001392",
+            "NAME": "許"
+        },
+        {
+            "NUMBER": "31",
+            "PD": "20180704004014",
+            "NAME": "馬葉"
+        },
+        {
+            "NUMBER": "32",
+            "PD": "20180630019458",
+            "NAME": "曾"
+        },
+        {
+            "NUMBER": "33",
+            "PD": "20180627035183",
+            "NAME": "陳"
+        },
+        {
+            "NUMBER": "34",
+            "PD": "20180624000386",
+            "NAME": "陳"
+        },
+        {
+            "NUMBER": "35",
+            "PD": "20180626003071",
+            "NAME": "郭"
+        },
+        {
+            "NUMBER": "36",
+            "PD": "20180626026452",
+            "NAME": "劉"
+        },
+        {
+            "NUMBER": "37",
+            "PD": "20180706003732",
+            "NAME": "林"
+        },
+        {
+            "NUMBER": "38",
+            "PD": "20180709025143",
+            "NAME": "廖"
+        },
+        {
+            "NUMBER": "39",
+            "PD": "20180708000003",
+            "NAME": "蔡"
+        },
+        {
+            "NUMBER": "40",
+            "PD": "20180627031607",
+            "NAME": "陳"
+        },
+        {
+            "NUMBER": "41",
+            "PD": "20180625037502",
+            "NAME": "莊"
+        },
+        {
+            "NUMBER": "42",
+            "PD": "20180626000250",
+            "NAME": "蔡"
+        },
+        {
+            "NUMBER": "43",
+            "PD": "20180708004338",
+            "NAME": "侯"
+        },
+        {
+            "NUMBER": "44",
+            "PD": "20180626002509",
+            "NAME": "葉"
+        },
+        {
+            "NUMBER": "45",
+            "PD": "20180704034263",
+            "NAME": "余"
+        },
+        {
+            "NUMBER": "46",
+            "PD": "20180625045087",
+            "NAME": "施"
+        },
+        {
+            "NUMBER": "47",
+            "PD": "20180702015285",
+            "NAME": "丘"
+        },
+        {
+            "NUMBER": "48",
+            "PD": "20180709001480",
+            "NAME": "劉"
+        },
+        {
+            "NUMBER": "49",
+            "PD": "20180630005836",
+            "NAME": "林"
+        },
+        {
+            "NUMBER": "50",
+            "PD": "20180628008727",
+            "NAME": "王"
+        }
+         
+              
+  ];
+
+
+
+  /* 版身顯示商品內容 */ 
+  var htmlKD = '';
+  for (var i = 0; i < myArray.length; i++) {
+    htmlKD += '<tr >';
+    htmlKD += '<td class="hotF1">' + myArray[i]['NUMBER'] + '</td>';
+    htmlKD += '<td class="pd_titleF1">' + myArray[i]['PD'] + '</td>';
+    htmlKD += '<td class="hot_priceF1">' + myArray[i]['NAME'] + '</td></tr>';
+
+  }
+  
+  $('.pd_wrapF2').html(htmlKD);
+    
+});    
+   
+</script>
+
+
+<!--////////////////////////得獎名單js end //////////////////////////////// -->
+
+   
 
   </head>
 
@@ -1110,7 +1428,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <!---------選單 手風琴----------->
-  	<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+  
 	<script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
 	<script src="js/bootstrap.min.js"></script>
     <!---------選單 手風琴end----------->
@@ -1193,327 +1511,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	  
 	  
-<!--////////////////////////得獎名單js start //////////////////////////////// -->
-<!--////////////////////////得獎名單js start//////////////////////////////// -->
-	  
-<!-- (2) 將js資料夾的iframeResizer.contentWindow.min.js丟入專案js資料夾裡面  -->	  
-  <script type="text/javascript" src="js/iframeResizer.contentWindow.min.js" ></script>
- 
-<script>
-$(function(){
-	var myArray= new Array();
-	myArray = [
-        {         
-            "NUMBER": "序號",
-            "PD": "訂單編號",
-            "NAME": "訂購人姓氏"
-        },        
-        {
-            "NUMBER": "1",
-            "PD": "20180630030843",
-            "NAME": "蔡"
-        },
-        {
-            "NUMBER": "2",
-            "PD": "20180630023060",
-            "NAME": "李"
-        },
-        {
-            "NUMBER": "3",
-            "PD": "20180707019211",
-            "NAME": "羅"
-        },
-        {
-            "NUMBER": "4",
-            "PD": "20180630021105",
-            "NAME": "陳"
-        },
-        {
-            "NUMBER": "5",
-            "PD": "20180626028000",
-            "NAME": "林"
-        },
-        {
-            "NUMBER": "6",
-            "PD": "20180701008020",
-            "NAME": "段"
-        },
-        {
-            "NUMBER": "7",
-            "PD": "20180630026413",
-            "NAME": "蔡"
-        },
-        {
-            "NUMBER": "8",
-            "PD": "20180701004961",
-            "NAME": "彭"
-        },
-        {
-            "NUMBER": "9",
-            "PD": "20180624009743",
-            "NAME": "劉"
-        },
-        {
-            "NUMBER": "10",
-            "PD": "20180705026629",
-            "NAME": "王"
-        },
-        {
-            "NUMBER": "11",
-            "PD": "20180707011907",
-            "NAME": "羅"
-        },
-        {
-            "NUMBER": "12",
-            "PD": "20180626014056",
-            "NAME": "陳"
-        },
-        {
-            "NUMBER": "13",
-            "PD": "20180629007996",
-            "NAME": "王"
-        },
-        {
-            "NUMBER": "14",
-            "PD": "20180624015862",
-            "NAME": "白"
-        },
-        {
-            "NUMBER": "15",
-            "PD": "20180702010799",
-            "NAME": "陳"
-        },
-        {
-            "NUMBER": "16",
-            "PD": "20180624000235",
-            "NAME": "劉"
-        },
-        {
-            "NUMBER": "17",
-            "PD": "20180624000496",
-            "NAME": "董"
-        },
-        {
-            "NUMBER": "18",
-            "PD": "20180628030643",
-            "NAME": "劉"
-        },
-        {
-            "NUMBER": "19",
-            "PD": "20180624003697",
-            "NAME": "張"
-        },
-        {
-            "NUMBER": "20",
-            "PD": "20180627025022",
-            "NAME": "郗"
-        },
-        {
-            "NUMBER": "21",
-            "PD": "20180706011120",
-            "NAME": "陳"
-        },
-        {
-            "NUMBER": "22",
-            "PD": "20180624001490",
-            "NAME": "金"
-        },
-        {
-            "NUMBER": "23",
-            "PD": "20180625025258",
-            "NAME": "張"
-        },
-        {
-            "NUMBER": "24",
-            "PD": "20180703020983",
-            "NAME": "林"
-        },
-        {
-            "NUMBER": "25",
-            "PD": "20180624035631",
-            "NAME": "黃"
-        },
 
-              
-  ];
-
-
-
-  /* 版身顯示商品內容 */ 
-  var htmlPD = '';
-  for (var i = 0; i < myArray.length; i++) {
-    htmlPD += '<tr >';
-    htmlPD += '<td class="hotF1">' + myArray[i]['NUMBER'] + '</td>';
-    htmlPD += '<td class="pd_titleF1">' + myArray[i]['PD'] + '</td>';
-    htmlPD += '<td class="hot_priceF1">' + myArray[i]['NAME'] + '</td></tr>';
-
-  }
-
-    
-  $('.pd_wrapF1').html(htmlPD);
-    
-});
-    
-////////////////////////////挖哈哈哈哈哈////////////////////////////
-    
-$( function(){
-	var myArray= new Array();
-	myArray = [
-        {         
-      "NUMBER": "序號",
-      "PD": "訂單編號",
-      "NAME": "訂購人姓氏"
-    },
-         {
-            "NUMBER": "26",
-            "PD": "20180627012319",
-            "NAME": "潘"
-        },
-        {
-            "NUMBER": "27",
-            "PD": "20180626011827",
-            "NAME": "王"
-        },
-        {
-            "NUMBER": "28",
-            "PD": "20180702008922",
-            "NAME": "黃"
-        },
-        {
-            "NUMBER": "29",
-            "PD": "20180627003499",
-            "NAME": "陳"
-        },
-        {
-            "NUMBER": "30",
-            "PD": "20180624001392",
-            "NAME": "許"
-        },
-        {
-            "NUMBER": "31",
-            "PD": "20180704004014",
-            "NAME": "馬葉"
-        },
-        {
-            "NUMBER": "32",
-            "PD": "20180630019458",
-            "NAME": "曾"
-        },
-        {
-            "NUMBER": "33",
-            "PD": "20180627035183",
-            "NAME": "陳"
-        },
-        {
-            "NUMBER": "34",
-            "PD": "20180624000386",
-            "NAME": "陳"
-        },
-        {
-            "NUMBER": "35",
-            "PD": "20180626003071",
-            "NAME": "郭"
-        },
-        {
-            "NUMBER": "36",
-            "PD": "20180626026452",
-            "NAME": "劉"
-        },
-        {
-            "NUMBER": "37",
-            "PD": "20180706003732",
-            "NAME": "林"
-        },
-        {
-            "NUMBER": "38",
-            "PD": "20180709025143",
-            "NAME": "廖"
-        },
-        {
-            "NUMBER": "39",
-            "PD": "20180708000003",
-            "NAME": "蔡"
-        },
-        {
-            "NUMBER": "40",
-            "PD": "20180627031607",
-            "NAME": "陳"
-        },
-        {
-            "NUMBER": "41",
-            "PD": "20180625037502",
-            "NAME": "莊"
-        },
-        {
-            "NUMBER": "42",
-            "PD": "20180626000250",
-            "NAME": "蔡"
-        },
-        {
-            "NUMBER": "43",
-            "PD": "20180708004338",
-            "NAME": "侯"
-        },
-        {
-            "NUMBER": "44",
-            "PD": "20180626002509",
-            "NAME": "葉"
-        },
-        {
-            "NUMBER": "45",
-            "PD": "20180704034263",
-            "NAME": "余"
-        },
-        {
-            "NUMBER": "46",
-            "PD": "20180625045087",
-            "NAME": "施"
-        },
-        {
-            "NUMBER": "47",
-            "PD": "20180702015285",
-            "NAME": "丘"
-        },
-        {
-            "NUMBER": "48",
-            "PD": "20180709001480",
-            "NAME": "劉"
-        },
-        {
-            "NUMBER": "49",
-            "PD": "20180630005836",
-            "NAME": "林"
-        },
-        {
-            "NUMBER": "50",
-            "PD": "20180628008727",
-            "NAME": "王"
-        }
-         
-              
-  ];
-
-
-
-  /* 版身顯示商品內容 */ 
-  var htmlKD = '';
-  for (var i = 0; i < myArray.length; i++) {
-    htmlKD += '<tr >';
-    htmlKD += '<td class="hotF1">' + myArray[i]['NUMBER'] + '</td>';
-    htmlKD += '<td class="pd_titleF1">' + myArray[i]['PD'] + '</td>';
-    htmlKD += '<td class="hot_priceF1">' + myArray[i]['NAME'] + '</td></tr>';
-
-  }
-  
-  $('.pd_wrapF2').html(htmlKD);
-    
-});    
-   
-</script>
-
-
-<!--////////////////////////得獎名單js end //////////////////////////////// -->
-<!--////////////////////////得獎名單js end//////////////////////////////// -->	  
-   
 </body>
 </html>
