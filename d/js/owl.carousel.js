@@ -2817,8 +2817,16 @@
 		navSpeed: false,
 		navElement: 'div',
 		navContainer: false,
-		slideBy: 1
-
+		navContainerClass: 'owl-nav',
+		navClass: [ 'owl-prev', 'owl-next' ],
+		slideBy: 1,
+		dotClass: 'owl-dot',
+		dotsClass: 'owl-dots',
+		dots: true,
+		dotsEach: false,
+		dotsData: false,
+		dotsSpeed: false,
+		dotsContainer: false
 	};
 
 	/**
@@ -2831,7 +2839,7 @@
 
 		// create DOM structure for relative navigation
 		this._controls.$relative = (settings.navContainer ? $(settings.navContainer)
-			: $('<div>').addClass(settings.navContainerClass).appendTo(this.$element));
+			: $('<div>').addClass(settings.navContainerClass).appendTo(this.$element)).addClass('disabled');
 
 		this._controls.$previous = $('<' + settings.navElement + '>')
 			.addClass(settings.navClass[0])
@@ -2857,7 +2865,7 @@
 		}
 
 		this._controls.$absolute = (settings.dotsContainer ? $(settings.dotsContainer)
-			: $('<div>').addClass(settings.dotsClass).appendTo(this.$element));
+			: $('<div>').addClass(settings.dotsClass).appendTo(this.$element)).addClass('disabled');
 
 		this._controls.$absolute.on('click', 'div', $.proxy(function(e) {
 			var index = $(e.target).parent().is(this._controls.$absolute)
