@@ -85,17 +85,13 @@
 <!--底部輪播js start-->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/iframeResizer.min.js"></script>
-   <script type="text/javascript">
-$(document).ready(function(){
-    $('iframe').iFrameResize({heightCalculationMethod: 'lowestElement', interval: 500});
-});
-</script>
+   
 <script>
 	// iframe RWD
 	$('iframe').iFrameResize( [{
 		inPageLinks	: true,
 		log			: false,
-        sizeWidth：'true',
+        maxHeight：'100px',
         
 
         
