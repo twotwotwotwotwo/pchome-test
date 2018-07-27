@@ -1,24 +1,4 @@
- /* ///////廣告版為輪播 //////start*/        
-     .fixedbar_carousel{
-        position: fixed;
-        z-index: 999;
-        bottom: 0;
-        width: 100%;
-        display: block;
-        background: rgba(44, 44, 44, 0.78);
-         height: 100px;
 
-    }           
-
-
-     .wrap {
-        width: 932px;
-        max-width: 100%;
-        margin: 0 auto;
-        position: relative;
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-    }
         
     /* ///////廣告版為輪播 //////END*/ 
         
