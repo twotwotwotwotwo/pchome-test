@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+/*        width: 50%;*/
+        margin: 10px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 10px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+/*
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+*/
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: 1;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="regular slider">
+    <div>
+     <img src="img/bottom_bar_1_1.jpg">
+    </div>
+    <div>
+      <img src="img/bottom_bar_1_3.jpg">
+    </div>
+    <div>
+      <img src="img/bottom_bar_1_4.jpg">
+    </div>
+    <div>
+      <img src="img/bottom_bar_1_8.jpg">
+    </div>
+    <div>
+      <img src="img/bottom_bar_1_9.jpg">
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+
+        
+        
+        
+      $(".regular").slick({
+        dots: false,
+        infinite: true,
+//        vertical: true,
+//        centerMode: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+          arrows: false,
+          centerPadding: '10px',
+          autoplay: true,
+          autoplaySpeed: 2000,
+          loop:true,
+          focusOnSelect: false,
+         
+
+         responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+//        infinite: true,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+        
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+      });
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+</script>
+	<script type="text/javascript" src="js/iframeResizer.contentWindow.min.js"></script>
+
+    
+	
+</body>
+</html>
