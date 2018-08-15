@@ -41,29 +41,22 @@
     
 
     <style>    
-   /* ///////廣告版為輪播 //////start*/        
-     .fixedbar_carousel{
-        position: fixed;
-        z-index: 999;
-        bottom: 0;
-        width: 100%;
-        display: block;
-        background: rgba(44, 44, 44, 0.78);
-        
-    }           
-
-    .fixedbarbox-2 img{
-        width: calc(100% / 2);
-        float: left;
-/*        padding: 10px;*/
+        .fixedbar_carousel{
+                position: fixed;
+                z-index: 99;
+                bottom: 0;
+                width: 100%;
+                display: block;
+                background: rgba(44, 44, 44, 0.78);
+        }           
+        .fixedbarbox-2 img{
+                width: calc(100% / 2);
+                float: left;
+                padding: 10px;
         }   
-        
-    .fixedbarbox a{display:block;margin:10px 5px;}
-        
 
-        
-    /* ///////廣告版為輪播 //////END*/    
-        
+        .fixedbarbox a{display:block;margin:3px 2px;}
+ 
     </style>
 
 
@@ -79,34 +72,36 @@
 			
 				<div class="fixedbarbox">
 					<div id="myCarousel-bottom" class="owl-carousel">
-					    <div>
-							<a href="http://www.pchomeec.tw/cdn/activity/AC06913696" target="_blank">
-								<img src="img/bottom_bar_1_4.jpg" alt="" />
-							</a>
-						</div>
-					
+                    
+ 					<!--與神-->	
 						<div>
-							<a href="http://www.pchomeec.tw/activity/AC08845774" target="_blank" >
-								<img src="img/bottom_bar_1_1.jpg" alt="" />
+							<a href="https://www.pchomeec.tw/cdn/activity/AC27182901" target="_blank">
+								<img src="img/bar_06.jpg" alt="" />
 							</a>
 						</div>
-
+                                       
+                                    
+						                   
+					<!--尖叫-->
+						<div>
+							<a href="https://www.pchomeec.tw/cdn/activity/AC06913696" target="_blank">
+								<img src="img/bar_04.jpg" alt="" />
+							</a>
+						</div>
+		
+					
 						
+				    <!--詞曲-->	
+                        <div> 
+							<a href="https://www.pchomeec.tw/activity/AC63949691" target="_blank" >
+								<img src="img/bar_02.jpg" alt="" />
+							</a>
+						</div>
+                						
+				    <!--boxman-->
 						<div>
 							<a href="https://www.pchomeec.tw/activity/AC16102046" target="_blank">
-								<img src="img/bottom_bar_1_3.jpg" alt="" />
-							</a>
-						</div>
-						
-						<div>
-							<a href="https://www.pchomeec.tw/cdn/activity/AC13385474" target="_blank">
-								<img src="img/bottom_bar_1_8.jpg" alt="" />
-							</a>
-						</div>
-						
-						<div>
-							<a href="https://www.pchomeec.tw/cdn/activity/AC48632875" target="_blank">
-								<img src="img/bottom_bar_1_9.jpg" alt="" />
+								<img src="img/bar_05.jpg" alt="" />
 							</a>
 						</div>
 					</div>
@@ -121,43 +116,34 @@
 
  <script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.js"></script>
-<script>
+<!----------輪播區域設定---------->	
+<script type="text/javascript">
+    $(document).ready(function(){	
 		$('#myCarousel-bottom').owlCarousel({
 				loop:true,
 				margin:0,
 				nav:false,
-				autoplay:true,
-				autoplayTimeout:4000,
-				autoplayHoverPause:true,
 				dots: false,
-				loop:true,
-				slideBy:2 ,
-
-			responsive:{
-				0:{
-
-					stagePadding:0,
-					margin:10,
-					items:1,
-
-				},
-				600:{
-					stagePadding:5,
-					margin:10,
-					items:2
-				},
-				1000:{
-					items:2
+				autoplay:true,
+				autoplayTimeout:3000,
+				autoplayHoverPause:true,
+				slideBy: 1,
+				responsive:{
+					0:{
+						margin:0,
+						items:1
+					},
+					600:{
+						items:2
+					},
+					1000:{
+						items:2
+					}
 				}
-			}
-
-		});      
-	</script>	
-
-
-
-   
-<!--底部輪播js start-->
+		});
+    });
+</script>
+<!----------END 輪播區域設定---------->	
 
 	<script type="text/javascript" src="js/iframeResizer.contentWindow.min.js"></script>
 
