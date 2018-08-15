@@ -51,25 +51,26 @@
       .desktop 		   { display: none!important;}  } 
         
         
+  /*////////////////// boxman定位 //////////////////*/       
   .imboxman_bottom img {
-    max-width: 250px;
+    max-width: 200px;
     position: fixed;
     right: 5%;
     bottom: -5px;
     z-index: 999;
 }
 
-@media only screen and (max-width: 1400px) {
-	.imboxman_bottom img					{ width: 190px; }
-}
-@media only screen and (max-width: 1130px) {
-	.imboxman_bottom img					{ width: 170px; right: 0%;}
-}
+    @media only screen and (max-width: 1400px) {
+        .imboxman_bottom img					{ width: 170px; }
+    }
+    @media only screen and (max-width: 1130px) {
+        .imboxman_bottom img					{ width: 150px; right: 0%;}
+    }
 
-@media only screen and (max-width: 600px) {
-	.imboxman_bottom img	 				{ width: 150px;    right: 0%; }
-}      
-        
+    @media only screen and (max-width: 600px) {
+        .imboxman_bottom img	 				{ width: 130px;    right: 0%; }
+    }      
+
         
  /*////////////////// 貼在common.css //////////////////*/
         /*--- end 新的fixedbar效果 ---*/
@@ -132,9 +133,9 @@
 
   </head>
 
-<body>
+<body >
 
-<div class="wrap"><img src="img/932.jpg" style="width:100%;"></div>
+<div class="wrap" ><img src="img/932.jpg" style="width:100%;"></div>
         
         
 <!----------------------------------------底部版位 貼在Footer前start---------------------------------------------------->		
