@@ -40,7 +40,7 @@
 
     
 
-    <style>    
+    <style>
         .fixedbar_carousel{
                 position: fixed;
                 z-index: 99;
@@ -57,6 +57,14 @@
 
         .fixedbarbox a{display:block;margin:3px 2px;}
  
+        
+     .mobile {  display: none;}
+  
+  @media only screen and (max-width: 931px) {
+      .mobile          { display: block; }
+      .desktop 		   { display: none!important;}  } 
+        
+  
     </style>
 
 
@@ -70,7 +78,7 @@
     
 		
 			
-				<div class="fixedbarbox">
+				<div class="fixedbarbox desktop">
 					<div id="myCarousel-bottom" class="owl-carousel">
                     
  					<!--與神-->	
