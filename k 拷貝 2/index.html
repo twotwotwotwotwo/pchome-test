@@ -30,9 +30,12 @@
 <!-----1. 將下面兩個css抓到專案css資料夾裡 並複製下面兩行連入index.html ----->
 <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
 <link rel="stylesheet" type="text/css" href="css/newmobile.css" />
+
 <!-----1. 將上面兩個css抓到專案css資料夾裡 並複製上面兩行連入index.html ----->
 	  
     <style>    
+
+
      .wrap {
         width: 932px;
         max-width: 100%;
@@ -40,14 +43,6 @@
         position: relative;
         box-sizing: border-box;
         -webkit-box-sizing: border-box;}
-        
-        #footer{
-            background: #101010;
-            padding: 15px 15px 130px 15px!important;
-            font-size: 13px; color: #fff; 
-            text-align: center;
-            line-height: 28px;}
-        
     
      .mobile {  display: none;}
   
@@ -55,30 +50,30 @@
       .mobile          { display: block; }
       .desktop 		   { display: none!important;}  } 
         
- /*////////////////// 貼在common.css //////////////////*/   
-      /*--- start boxman定位 ---*/      
-      .imboxman_bottom img {
-        max-width: 200px;
-        position: fixed;
-        right: 5%;
-        bottom: -5px;
-        z-index: 999;}
-
-
-        @media only screen and (max-width: 1400px) {
-            .imboxman_bottom img					{ width: 150px; }
-        }
-        @media only screen and (max-width: 1130px) {
-            .imboxman_bottom img					{ width: 140px; right: 0%;}
-        }
-
-        @media only screen and (max-width: 600px) {
-            .imboxman_bottom img	 				{ width: 120px;    right: 0%; }
-        }      
-       /*--- end boxman定位 ---*/ 
         
+  /*////////////////// boxman定位 //////////////////*/       
+  .imboxman_bottom img {
+    max-width: 200px;
+    position: fixed;
+    right: 5%;
+    bottom: -5px;
+    z-index: 999;
+}
 
-        /*--- start 新的fixedbar效果 ---*/
+    @media only screen and (max-width: 1400px) {
+        .imboxman_bottom img					{ width: 150px; }
+    }
+    @media only screen and (max-width: 1130px) {
+        .imboxman_bottom img					{ width: 140px; right: 0%;}
+    }
+
+    @media only screen and (max-width: 600px) {
+        .imboxman_bottom img	 				{ width: 120px;    right: 0%; }
+    }      
+
+        
+ /*////////////////// 貼在common.css //////////////////*/
+        /*--- end 新的fixedbar效果 ---*/
          .fixedbar_carousel{
                 position: fixed;
                 z-index: 99;
@@ -126,19 +121,27 @@
             cursor: pointer;
             text-align: center;
         }
-        /*--- end 新的fixedbar效果 ---*/    
-  /*////////////////// End 貼在common.css //////////////////*/     
-       
+/*//////////////////--- end 新的fixedbar效果////////////////// ---*/
+        
+     
+        
+        
+
+
     </style>
 
 
   </head>
 
-<body>
-    <div class="wrap" ><img src="img/932.jpg" style="width:100%;"></div>
-    
+<body >
+
+<div class="wrap" ><img src="img/932.jpg" style="width:100%;"></div>
+        
+        
 <!----------------------------------------底部版位 貼在Footer前start---------------------------------------------------->		
 <!----------------------------------------底部版位 貼在Footer前start---------------------------------------------------->
+    
+		
 		<div class="fixedbar_carousel desktop">
             <div class="wrap">
                 <div class="fixedbarbox desktop">
@@ -147,18 +150,22 @@
                     </div>
                     <div class="iframe_wrap desktop" >
                         <iframe src="index_01.html" width="100%" scrolling="no" frameborder="0"></iframe>
-<!--                        <iframe src="http://www.pchomeec.tw/activity/AC02677347?n=index_00.html" width="100%" scrolling="no" frameborder="0"></iframe>-->
                     </div>
                 </div>
             </div>
 		</div>	
-   
-    <!--/*--- 置下boxman start ---*/-->
-	<div class="imboxman_bottom mobile">
-<!--	<a href="http://www.pchomeec.tw/activity/AC02677347?n=index_00.html" target="_blank" class="fancybox-iframe">-->
-	<a href="index_00.html" target="_blank" class="fancybox-iframe mobile"><img src="img/imboxman_bottom.gif" ></a></div>
-	<!--/*--- 置下boxman End ---*/-->
+				
+				
+				
+
     
+<!----------------------------------------置下boxman start---------------------------------------------------->
+	<div class="imboxman_bottom mobile">
+<!--	<a href="http://www.pchomeec.tw/activity/AC25218504?n=index_00.html" target="_blank" class="fancybox-iframe">-->
+	<a href="index_00.html" target="_blank" class="fancybox-iframe mobile"><img src="img/imboxman_bottom.gif" ></a></div>	
+<!----------------------------------------置下boxman  start---------------------------------------------------->	
+    
+					
 	
 <!----------------------------------------底部版位 貼在Footer前END---------------------------------------------------->		
 <!----------------------------------------底部版位 貼在Footer前END---------------------------------------------------->		
@@ -166,7 +173,7 @@
         
 
 		<!-- Footer Start -->
-		<div id="footer">
+		<div id="footer"  style="background: #101010;padding: 15px 15px 130px 15px!important;font-size: 13px; color: #fff; text-align: center;line-height: 28px;">
 			<div>
 				本活動頁商品規格、顏色、價位、贈品如與銷售網頁不符，<span>以銷售網頁標示為準！</span><br />
 				網路家庭版權所有 Copyright PChome Online <span>版權所有，轉載必究</span><br /><span>*PChome聯名卡活動期間至2018/12/31，相關優惠權益或服務之細節及限制條件請詳花旗官網/權益手冊或PChome線上購物。</span>
