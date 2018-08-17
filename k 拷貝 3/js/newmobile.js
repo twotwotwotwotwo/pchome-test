@@ -1071,7 +1071,7 @@
 			if (previous) {
 				F.trigger('beforeChange', previous);
 
-				previous.wrap.stop(true).removeClass('fancybox-opened')
+				previous.wrap.stop(true).removeClass('fancybox-opened,noscroll')
 					.find('.fancybox-item, .fancybox-nav')
 					.remove();
 			}
@@ -1426,7 +1426,7 @@
 
 			F.isOpen = F.isOpened = true;
 
-			F.wrap.css('overflow', 'visible').addClass('fancybox-opened');
+			F.wrap.css('overflow', 'visible').addClass('fancybox-opened,noscroll');
 
 			F.update();
 
