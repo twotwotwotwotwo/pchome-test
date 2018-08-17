@@ -1,0 +1,97 @@
+ /*////////////////// 原本長住型態css //////////////////*/ 
+.wrap {
+        width: 932px;
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;}
+        
+ .footer22222222{
+            background: #101010; 
+            padding: 15px 15px 130px 15px!important; 
+            font-size: 13px; color: #fff;  
+            text-align: center; 
+            line-height: 28px; }
+        
+    
+.mobile {  display: none;}
+  
+@media only screen and (max-width: 931px) {
+      .mobile          { display: block; }
+      .desktop 		   { display: none!important;}  } 
+
+
+        
+ /*////////////////// 新增css //////////////////*/   
+      /*--- start boxman定位 ---*/      
+      .imboxman_bottom img {
+        max-width: 200px;
+        position: fixed;
+        right: 5%;
+        bottom: -5px;
+        z-index: 999;}
+
+        @media only screen and (max-width: 1400px) {
+            .imboxman_bottom img					{ width: 150px; }
+        }
+        @media only screen and (max-width: 1130px) {
+            .imboxman_bottom img					{ width: 140px; right: 0%;}
+        }
+
+        @media only screen and (max-width: 600px) {
+            .imboxman_bottom img	 				{ width: 120px;    right: 0%; }
+        }      
+       /*--- end boxman定位 ---*/ 
+        
+
+        /*--- start 新的fixedbar效果 ---*/
+         .fixedbar_carousel{
+                position: fixed;
+                z-index: 99;
+                bottom: 0;
+                width: 100%;
+                display: block;
+                background: rgba(44, 44, 44, 0.78);
+        }           
+        .fixedbarbox-2 img{
+                width: calc(100% / 2);
+                float: left;
+                padding: 10px;
+        }   
+
+        .fixedbarbox a{display:block;margin:3px 2px;}
+       
+        .open {
+            display: block!important;
+            opacity: 1!important;
+        }
+        .hide {
+            display: none!important;
+            opacity: 1!important;
+        }
+        .close_under {
+            width: 100%;
+            position: relative;
+        }
+        .close_under .btn {
+            position: absolute;
+            top: -20px;
+            left: 2px;
+            width: 20px;
+            height: 20px;
+            color: #fff;
+            font-size: 13px;
+            font-weight: 100;
+            font-family: Arial, Helvetica, sans-serif;
+            opacity: 1;
+            border: 0px solid #fff;
+            background: rgba(44, 44, 44, 0.78);
+            padding: 0;
+            line-height: 21px;
+            z-index: 999;
+            cursor: pointer;
+            text-align: center;
+        }
+        /*--- end 新的fixedbar效果 ---*/    
+  /*////////////////// End 貼在common.css //////////////////*/     
