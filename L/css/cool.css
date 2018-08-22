@@ -16,7 +16,7 @@
         
     
 .mobile {  display: none;}
-  
+
 @media only screen and (max-width: 931px) {
       .mobile          { display: block; }
       .desktop 		   { display: none!important;}  } 

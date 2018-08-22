@@ -208,7 +208,7 @@ overflow-y: scroll;
 	
 	
 .fancybox-outer, .fancybox-inner {
-	position: relative;
+	position: absolute;
 	height:100vh!important;
 	overflow: visible!important;
 	background-color: transparent!important;
