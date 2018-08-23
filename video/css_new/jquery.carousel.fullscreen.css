@@ -12,7 +12,7 @@ a:hover{ color: #a0a0a0; }
 }
 
 .whitetxt {
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 div, nav  { transition: .3s;}
@@ -286,6 +286,18 @@ div#intro  #social_header a:nth-child(2){
 
 .carousel-inner {
     overflow: visible;
+}
+
+/*焦點好物*/
+.inner2{
+     padding:14px 0px 0px 14px!important;
+    font-size:16px!important;
+    width: 60%;
+}
+
+.inner2 img{
+    max-width: 18px;
+    margin: -2px 5px 5px 0px;
 }
 
 
@@ -574,6 +586,9 @@ table .times #dd{
 	background: #fff;
     width: 100%;
 }
+.padding0{    
+    padding-right: 0px;
+    padding-left: 0px;}
 
 #work.section-work .section-body{
 	padding: 10px;
@@ -678,7 +693,7 @@ table .times #dd{
 #works.section-work .tabs-nav a:hover,
 #works.section-work .tabs-nav a.active{
 	background-color: #fff;
-	color: #bebebe;
+	color: #414141;
 }
 
 
@@ -733,7 +748,7 @@ table .times #dd{
 
 .boxWR{
 	background:  #ffffff;
-	padding: 15px!important;
+	padding: 0px 10px!important;
 
 }
 
@@ -743,7 +758,8 @@ table .times #dd{
 
 .boxWR p{
 	font-size: 16px;
-	line-height:2;
+	line-height:1.8;
+    color: #575757;
 }
 
 .box-img img{
@@ -886,7 +902,14 @@ background: linear-gradient(to right, #66a6fe 0%,#75c7ff 50%,#8af7fe 100%); /* W
 }
 
 .box1a-section .title{
-	padding: 23px 10px 10px 10px;
+    padding: 18px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: -4px;
+    
+}
+.box1a-section .title2{
+	padding: 10px 10px 10px 10px;
 	font-size:  24px;
 	line-height: 28px;
 }
@@ -894,6 +917,7 @@ background: linear-gradient(to right, #66a6fe 0%,#75c7ff 50%,#8af7fe 100%); /* W
 .box1a-section .title-timer{
 	font-size:  18px;
 	line-height: 1.8;
+    color: #838383;
 }
 .box1a-section .links{
 	margin-top: -45px;
@@ -907,20 +931,22 @@ background: linear-gradient(to right, #66a6fe 0%,#75c7ff 50%,#8af7fe 100%); /* W
 	text-decoration:  underline;	
 }
 
-.whitebox{
+.whitebox,.whitebox2{
 	background: #fff;
 
 }
 
-.whitebox div {
+.whitebox div,.whitebox2 div {
     display: inline-block;
-    padding: 0px;
+    padding: 2px 2px 1px 5px;
     font-size: 14px;
 }
 
-.whitebox .btns{
 
-    background: #da5050;
+
+.whitebox .btns,.whitebox2 .btns{
+
+    background: #e4332d;
     color: #FFF;
     padding: 5px 5px;
     font-size: 12px;
@@ -934,18 +960,39 @@ background: linear-gradient(to right, #66a6fe 0%,#75c7ff 50%,#8af7fe 100%); /* W
 	
 }
 
-.whitebox ul{
+.whitebox ul,.whitebox2 ul{
 	padding: 0!important;
 }
 
 .whitebox ul li {
-	padding: 8px 0 8px 0;
+	padding: 5px 0 5px 0;
     border-bottom: 1px solid #CCC;
     width: 100%;
     margin-left: 0px;
 	float:left;
 	position: relative;
 }
+.section-header2{width: 100%;}
+
+
+
+
+.whitebox2 ul li {
+	padding: 11px 0 12px 0;
+    border-bottom: 1px solid #CCC;
+    width: 100%;
+    margin-left: 0px;
+	float:left;
+	position: relative;
+}
+.whitebox2 ul li:nth-child(1) {
+    border-top: 1px solid #CCC;
+}
+
+/*.section-header2{width:60%;}*/
+
+
+
 
 .rsDefault .rsArrow {
 	margin-left:  25px;
@@ -1441,6 +1488,16 @@ ul li{
 #BoxF{top: 1775px !important;}
 .footer-index{top: 2360px !important;}*/
 
+.br-m,.pd_0m{display:block;}
+.btn{
+    margin-bottom: 5px;
+    background-color: #e4332d;
+}
+
+
+.tabs-nav li a img{max-width: 16px;}
+
+
 @media (max-width: 1200px) {
 	
 	.whitebox .btns{
@@ -1478,7 +1535,12 @@ ul li{
 	.whitetxt {
     	margin-left: 10px;
 	}
+    
+    .br-m,.pd_0m{display:none;}
 	
+    #BoxC {
+    margin: -10px 0;
+    }
 }
 
 @media (max-width: 932px) {
@@ -1512,6 +1574,11 @@ ul li{
 	.merge_padding{
 		padding:0 15px!important;
 	}
+    .box1a-section .title{
+        border-bottom:1px solid #CCC!important;
+    }
+     
+    
 	
 }
 
@@ -1851,6 +1918,7 @@ ul li{
   -o-transition: height 0.2s ease-in;
   -webkit-transition: height 0.2s ease-in;
   transition: height 0.2s ease-in;
+  width: 100%;
 }
 
 
@@ -1883,7 +1951,7 @@ ul li{
   height: 35px;
   text-align: center;
   color: #000;
-  margin:0px;
+  margin:1px;
 }
 
 .verticalCarouselHeader .vc_goUp:active, .verticalCarouselHeader .vc_goDown:active {
@@ -1894,19 +1962,19 @@ ul li{
 }
 
 .verticalCarouselHeader .vc_goUp{
-  background: url(../img/arrow-up.png);
+  background: url(../img/arrow-up.svg);
   background-size: 60% auto;
   background-repeat: no-repeat;  
   background-position: center;
-  background-color: #e1e1e1;
+  background-color: #bcbcbc;
 }
 
 .verticalCarouselHeader .vc_goDown{
-  background: url(../img/arrow-down.png);
+  background: url(../img/arrow-down.svg);
   background-size: 60% auto;
   background-repeat: no-repeat;  
   background-position: center;
-  background-color: #e1e1e1;
+  background-color: #bcbcbc;
 }
 
 .verticalCarousel2 .vc_goUp, .verticalCarousel2 .vc_goDown{
