@@ -733,7 +733,7 @@ table .times #dd{
 
 .boxWR{
 	background:  #ffffff;
-/*	padding: 10px!important;*/
+	padding: 15px!important;
 
 }
 
@@ -743,8 +743,7 @@ table .times #dd{
 
 .boxWR p{
 	font-size: 16px;
-	line-height:1.8;
-    color: #575757;
+	line-height:2;
 }
 
 .box-img img{
@@ -1442,9 +1441,6 @@ ul li{
 #BoxF{top: 1775px !important;}
 .footer-index{top: 2360px !important;}*/
 
-.br-m{display:block;}
-.btn{margin-bottom: 5px;}
-
 @media (max-width: 1200px) {
 	
 	.whitebox .btns{
@@ -1482,8 +1478,6 @@ ul li{
 	.whitetxt {
     	margin-left: 10px;
 	}
-    
-    .br-m{display:none;}
 	
 }
 
