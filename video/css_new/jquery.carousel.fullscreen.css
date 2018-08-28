@@ -1600,7 +1600,12 @@ ul li{
         border-bottom:1px solid #CCC!important;
     }
     .br-m,.pd_0m{display:none;}
-     
+    .box1a-section .title { padding: 20px 30px;}
+    .whitebox div, .whitebox2 div {padding: 2px 13px 1px 25px;}
+    
+
+
+    
     
 	
 }
