@@ -1519,7 +1519,7 @@ ul li{
     .dropdown-menu>li>a{padding: 3px 30px;}
     .col-md-9 ,.col-md-3,.col-md-12{padding: 0px 0px;}
     
-    .inner2 { width: 48%!important;padding: 12px 0px 0px 19px!important;} 
+    .inner2 { width: 48%!important;padding: 12px 0px 0px 32px!important;} 
    
 
 	
@@ -1606,7 +1606,10 @@ ul li{
     
 
    
+.whitebox2 ul li {
+    padding: 12px 15px;
 
+}
 
     
     
@@ -1790,6 +1793,9 @@ ul li{
     height: 390px;
 	}
         #work.section-work .section-body{padding: 10px 25px;}
+    .verticalCarouselHeader {
+    padding-right: 20px!important;
+}
     
 
 	
