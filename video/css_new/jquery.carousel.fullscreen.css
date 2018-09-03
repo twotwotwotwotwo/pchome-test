@@ -1,3 +1,35 @@
+/*---------FACEBOOK 16:9包法------*/	
+.facebook-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.facebook-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/*---------FACEBOOK 16:9包法------*/	
+/*---------YOUTUBE 16:9包法------*/	
+	.YTwrapper {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 0px;
+		height: 0;
+		overflow: hidden;
+		cursor: pointer;
+	}
+	.YTwrapper iframe, .YTwrapper object, .YTwrapper embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+/*---------YOUTUBE 16:9包法------*/	
 
 
 
@@ -893,10 +925,10 @@ background: linear-gradient(to right, #66a6fe 0%,#75c7ff 50%,#8af7fe 100%); /* W
 }
 
 .box1a-section .title{
-    padding: 18px;
+    padding: 19px;
     font-size: 24px;
     line-height: 28px;
-    margin-top: -4px;
+/*    margin-top: -4px;*/
     
 }
 .box1a-section .title2{
@@ -1519,10 +1551,23 @@ ul li{
     .dropdown-menu>li>a{padding: 3px 30px;}
     .col-md-9 ,.col-md-3,.col-md-12{padding: 0px 0px;}
     
-    .inner2 { width: 48%!important;padding: 12px 0px 0px 32px!important;} 
+    .inner2 { width: 54%!important;padding: 12px 0px 0px 20px!important;} 
+/*    .box1a-section .title {padding: 0px;}*/
+/*    .box1a-section .title {padding: 55px 19px;}*/
+    .infobox{padding: 38px 0px;}
+    .whitebox div, .whitebox2 div{padding: 0px;}
+    .whitebox2 ul li{padding: 4px 0 12px 10px}
+    
    
 
 	
+}
+
+
+@media (max-width: 1050px) {
+    .inner2 {padding: 10px 0px!important;} 
+    
+    
 }
 
 @media (max-width: 1024px) {
@@ -1561,13 +1606,18 @@ ul li{
     margin: 5px 6px 4px 6px;
     }
 
-       .box1a-section .title{
-        border-bottom:1px solid #CCC!important;
-    } 
+    .inner2 {padding: 10px 0px 10px 30px!important;} 
+
+   
+    
 }
+@media (max-width: 990px) {
+    .infobox{padding:  0px;}
+    .box1a-section .title{padding:20px;}
+    }
 
 @media (max-width: 932px) {
-        
+   .box1a-section .title{border-bottom:1px solid #CCC!important;} 
 	
    #lightbg {
 		display:  none !important;
@@ -1606,17 +1656,16 @@ ul li{
     
 
    
-.whitebox2 ul li {
-    padding: 12px 15px;
+    .whitebox2 ul li { padding: 12px 22px;}
 
-}
 
-    
+   
     
 	
 }
 
 @media (max-width: 768px) {
+    
 	
 	.container{
 		padding-right: 15px;
@@ -2043,7 +2092,7 @@ ul li{
 }
 
 .box1a-section_tape .title{
-	padding: 21px 10px!important
+	padding: 19px 10px!important
 /*	padding: 10px!important;*/
 }
 
@@ -2154,31 +2203,19 @@ ul li{
 	}
 	
 
-.videoWrapper {
+    .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
 
-position: relative;
-
-padding-bottom: 56.25%;
-
-padding-top: 30px;
-
-height: 0;
-
-overflow: hidden;
-
-}
-
-.videoWrapper iframe, .videoWrapper object, .videoWrapper embed {
-
-position: absolute;
-
-top: 0;left: 0;
-
-width: 100%;
-
-height: 100%;}	
-	
-
-	
-	
+    .videoWrapper iframe, .videoWrapper object, .videoWrapper embed {
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;}	
+    
+    
 }

@@ -71,16 +71,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div id="menu">
 	</div>
     
-<!------新影片輪播區域 開始------>	
+<!------新影片輪播區域 開始&width=750------>	
    <section id="main_video_box">
 		<div id="myCarousel_main" class="owl-carousel owl-theme">
-			
+		
+        <!--點擊進去內頁開啟這段--> 
+     			<!--<div>
+					<div class="YTwrapper">
+				  <a href="chatroom/180829/index.html" target="_blank">
+					  <div class="bgg" style="background-image: url('chatroom/180829/img/1920.jpg')"></div>
+					  <div class="link-imga"><img src="img/play.png" width="56" height="56" alt="最新影片播放"></div>
+				  </a>
+					</div>
+			</div>--> 
+	
      			<div>
-				  <div class="videoID YTwrapper" data-video="https://www.youtube.com/embed/-23yeXzkyk0?rel=0&autoplay=1&mute=1">
+				  <div class="videoID YTwrapper" data-video="https://www.youtube.com/embed/ilIkxPLf_y8?rel=0&autoplay=1&mute=1">
+					  <div class="bgg" style="background-image: url('hotsale/180905/img/1920.jpg')"></div>
+					  <div class="link-imga"><img src="img/play.png" width="56" height="56" alt="最新影片播放"></div>
+				  </div>
+			</div> 		
+		
+			
+
+     			<div>
+				  <div class="videoID YTwrapper" data-video="https://www.youtube.com/embed/Vt1CdjI6ZcU?rel=0&autoplay=1&mute=1">
 					  <div class="bgg" style="background-image: url('chatroom/180829/img/1920.jpg')"></div>
 					  <div class="link-imga"><img src="img/play.png" width="56" height="56" alt="最新影片播放"></div>
 				  </div>
 			</div> 
+
              
      			<div>
 				  <div class="videoID YTwrapper" data-video="https://www.youtube.com/embed/lMaMjDNtLds?rel=0&autoplay=1&mute=1">
@@ -121,12 +141,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					  <div class="link-imga"><img src="img/play.png" width="56" height="56" alt="最新影片播放"></div>
 				  </div>
 			</div>   
-			<div>
-				  <div class="videoID YTwrapper" data-video="https://www.youtube.com/embed/yaacSJqcaqA?rel=0&autoplay=1&mute=1">
-					  <div class="bgg" style="background-image: url('hotsale/180726/img/1920.jpg')"></div>
-					  <div class="link-imga"><img src="img/play.png" width="56" height="56" alt="最新影片播放"></div>
-				  </div>
-			</div>
+		
 
 
 	   </div>
@@ -240,6 +255,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="row">
 					<h3>P編開賣啦</h3>
 							<div id="myCarousel-D" class="owl-carousel">
+                         
+                                 <div class="item">
+                                    <div class="news-item">
+                                        <a href="hotsale/180905/index.html" target="_blank">
+                                            <img class="img-responsive" src="hotsale/180905/img/1920.jpg" width="365" alt="開心鬼放暑假-pchome" >
+                                        </a>
+                                        <h5>9/5(三)17:00</h5>
+                                        <p>娘娘駕到 教你打造完美中秋趴!</p>
+                                    </div>
+                                </div>	
                           
                           
                                   <div class="item">
@@ -654,6 +679,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		background-size: cover;
 		z-index: 99;
 	}
+
+/*---------FACEBOOK 16:9包法------*/	
+.facebook-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.facebook-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/*---------FACEBOOK 16:9包法------*/	
 /*---------YOUTUBE 16:9包法------*/	
 	.YTwrapper {
 		position: relative;
